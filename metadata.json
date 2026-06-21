@@ -1,0 +1,6 @@
+{
+  "name": "Protocolo Congolês Quiz",
+  "description": "Funil de quiz de conversão focado em UI/UX e transições suaves",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
