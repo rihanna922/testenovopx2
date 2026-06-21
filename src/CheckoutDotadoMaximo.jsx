@@ -26,6 +26,7 @@ export default function CheckoutDotadoMaximo({ onBack }) {
   const totalAmount = BASE_AMOUNT + Object.entries(bumps).reduce((acc, [k, v]) => acc + (v ? BUMP_PRICES[k] : 0), 0);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     if (!document.getElementById('qrcodejs-script')) {
       const s = document.createElement('script');
       s.id = 'qrcodejs-script';
